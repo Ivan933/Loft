@@ -114,8 +114,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "initialPosition": {
    "hfov": 121,
    "class": "PanoramaCameraPosition",
-   "yaw": 161.85,
-   "pitch": -4.5
+   "yaw": 116.82,
+   "pitch": 1.82
   },
   "class": "PanoramaCamera",
   "id": "panorama_300A6834_21BF_740C_4191_B4DC192F7430_camera",
@@ -150,22 +150,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "restartMovementOnUserInteraction": false,
    "movements": [
     {
-     "yawDelta": 18.5,
-     "yawSpeed": 20.68,
-     "easing": "cubic_in",
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "yawDelta": 323,
-     "yawSpeed": 20.68,
-     "easing": "linear",
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "yawDelta": 18.5,
-     "yawSpeed": 20.68,
-     "easing": "cubic_out",
-     "class": "DistancePanoramaCameraMovement"
+     "class": "TargetPanoramaCameraMovement",
+     "targetPitch": 2.69,
+     "yawSpeed": 33.25,
+     "easing": "cubic_in_out",
+     "targetYaw": 180,
+     "path": "shortest",
+     "pitchSpeed": 17.05
     }
    ]
   }
@@ -491,8 +482,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "initialPosition": {
    "hfov": 139,
    "class": "PanoramaCameraPosition",
-   "yaw": -12.47,
-   "pitch": -0.75
+   "yaw": -49.81,
+   "pitch": -8.97
   },
   "class": "PanoramaCamera",
   "id": "panorama_30F21934_2046_B127_41BB_DAC283B8C0C4_camera",
@@ -527,22 +518,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "restartMovementOnUserInteraction": false,
    "movements": [
     {
-     "yawDelta": 18.5,
-     "yawSpeed": 21.74,
-     "easing": "cubic_in",
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "yawDelta": 323,
-     "yawSpeed": 21.74,
-     "easing": "linear",
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "yawDelta": 18.5,
-     "yawSpeed": 21.74,
-     "easing": "cubic_out",
-     "class": "DistancePanoramaCameraMovement"
+     "class": "TargetPanoramaCameraMovement",
+     "targetPitch": -6.92,
+     "yawSpeed": 33.25,
+     "easing": "cubic_in_out",
+     "targetYaw": 137.38,
+     "path": "shortest",
+     "pitchSpeed": 17.05
     }
    ]
   }
@@ -796,7 +778,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "hfov": 132,
    "class": "PanoramaCameraPosition",
    "yaw": -16.52,
-   "pitch": 0.66
+   "pitch": 0.67
   },
   "class": "PanoramaCamera",
   "id": "panorama_16377C8D_1FC1_B7E1_41B7_83B3C2EFF2C6_camera",
@@ -1538,8 +1520,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "initialPosition": {
    "hfov": 128,
    "class": "PanoramaCameraPosition",
-   "yaw": 174.28,
-   "pitch": 12.98
+   "yaw": 174.27,
+   "pitch": 12.99
   },
   "class": "PanoramaCamera",
   "id": "panorama_13BFA6A4_1FC7_9327_41A4_D89CCD1279E7_camera",
@@ -1699,8 +1681,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "initialPosition": {
    "class": "PanoramaCameraPosition",
-   "yaw": 76.27,
-   "pitch": 5.34
+   "yaw": 118.83,
+   "pitch": 7.81
   },
   "class": "PanoramaCamera",
   "id": "panorama_28CBC7A7_24C8_8FBC_41B4_221EEC51ECD5_camera",
@@ -1736,12 +1718,12 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "movements": [
     {
      "class": "TargetPanoramaCameraMovement",
-     "targetPitch": 10.38,
-     "yawSpeed": 33.25,
+     "targetPitch": 11.75,
+     "yawSpeed": 91.3,
      "easing": "cubic_in_out",
-     "targetYaw": -124.27,
+     "targetYaw": -152.85,
      "path": "shortest",
-     "pitchSpeed": 17.05
+     "pitchSpeed": 45.94
     }
    ]
   }
@@ -2410,10 +2392,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "scrollBarVisible": "rollOver",
   "scrollBarColor": "#000000",
   "paddingRight": 20,
-  "height": "27.273%",
+  "height": "30.085%",
   "paddingTop": 20,
   "shadow": false,
-  "width": "37.504%",
+  "width": "40.722%",
   "propagateClick": false,
   "top": "7.95%",
   "visible": false,
